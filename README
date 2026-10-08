@@ -1,0 +1,14 @@
+You should be able to run the code by executing
+
+Python main.py Test0.txt
+        or
+Python3 main.py Test0.txt
+
+You will need the "nidaqmx" and "keyboard" packages in order to run this program.
+Get them with:
+python -m pip install nidaqmx
+python -m pip install keyboard
+
+THINGS THAT NEED TO BE VERIFIED:
+- Which analog input channels are we using
+- What are the acceptable voltage limits for each pressure transducer/thermocouple
